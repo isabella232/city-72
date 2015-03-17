@@ -4,9 +4,5 @@ $(document).ready(function(){
     $(".dropdown-menu > li").click(function(){
       $(".dropdown-menu").removeClass("show-menu");
     });
-    $(".dropdown-menu.dropdown-select > li").click(function() {
-      $(".dropdown-button").html($(this).html());
-    });
   });
 });
-
