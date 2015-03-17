@@ -178,6 +178,7 @@ GEM
     rake (10.3.2)
     rdoc (3.12.2)
       json (~> 1.4)
+    refills (0.1.0)
     responders (1.1.0)
       railties (>= 3.2, < 5)
     rest-client (1.6.7)
@@ -246,6 +247,7 @@ DEPENDENCIES
   rack-timeout (~> 0.0.4)
   rails (= 3.2.13)
   rails_12factor (~> 0.0.2)
+  refills
   sass (~> 3.2.13)
   sass-rails (~> 3.2.3)
   simple_enum (= 1.6.9)

@@ -16,6 +16,7 @@ gem 'json', '~> 1.7.7'
 gem 'mandrill-api', '~> 1.0.51'
 gem "galetahub-simple_captcha", '~> 0.1.5', :require => "simple_captcha"
 gem "browser", '~> 0.6.0'
+gem 'refills'
 
 gem 'heroku-deflater', '~> 0.5.3', :group => :production
 gem 'unicorn-rails', '~> 2.1.1', :group => :production

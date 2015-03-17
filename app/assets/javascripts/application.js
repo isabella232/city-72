@@ -25,4 +25,5 @@
 //= require cors
 //= require header
 //= require retina_responsive
+//= require refills/dropdown.js
 //= require init
