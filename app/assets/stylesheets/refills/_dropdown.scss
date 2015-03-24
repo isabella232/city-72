@@ -22,38 +22,36 @@
 
   $dropdown-color: $base-font-color;
   $dropdown-description-color: lighten($dropdown-color, 40%);
-  $dropdown-border: 1px solid silver;
+  $dropdown-border: 1px solid $highlight;
   $dropdown-background: $base-background-color;
   $dropdown-background-hover: darken($dropdown-background, 3%);
-  $dropdown-inner-border: 1px solid silver;
+  $dropdown-inner-border: 1px solid $highlight;
   $dropdown-height: 40px;
   $dropdown-padding: 1em;
-  $dropdown-distance-from-menu: 41px;
-  $dropdown-arrow-top-distance: 0;
+  $dropdown-distance-from-menu: 5.15rem;
+  $dropdown-arrow-top-distance: 0.5rem;
 
   .dropdown-container {
     display: inline-block;
     position: relative;
     text-align: center;
+  	margin-top: 1.01rem;
   }
 
   .dropdown-button {
     background: $dropdown-background;
-    border-radius: $base-border-radius;
+    border-radius: 0;
     border: $dropdown-border;
     cursor: pointer;
     float: right;
-    font-size: 0.7em;
-    font-weight: 800;
+		font-family: $font-medium;
+		font-size: 1.6rem;
     line-height: $dropdown-height;
-    margin: 0;
-    padding: 0 ($dropdown-padding * 2.5) 0 $dropdown-padding;
+    margin: 1.4rem 0 0.6rem 0;
+    padding: 0.6rem 1.6rem 0.6rem 0.2rem;
+    width: 14.6rem;
     position: relative;
-
-    @include media($large-screen) {
-      font-size: 1em;
-      padding: 0 ($dropdown-padding * 2.5) 0 $dropdown-padding;
-    }
+    color: $highlight;
   }
 
   .dropdown-button:hover {
@@ -61,7 +59,7 @@
   }
 
   .dropdown-button:after {
-    color: $base-font-color;
+    color: $highlight;
     content: "\25BE";
     display: block;
     position: absolute;
@@ -72,17 +70,17 @@
   .dropdown-menu {
     @include transition (all 0.2s ease-in-out);
     background: $dropdown-background;
-    border-radius: $base-border-radius;
+    border-radius: 0;
     border: $dropdown-border;
     box-shadow: 0 2px 2px transparentize(black, 0.8);
-    color: $dropdown-color;
+    color: $body-light;
     cursor: pointer;
     display: none;
     overflow: show;
     position: absolute;
     right: 0;
     top: $dropdown-distance-from-menu;
-    width: 228px;
+    width: 14.6rem;
     z-index: 99999;
 
 
@@ -90,7 +88,7 @@
 
   .dropdown-menu li {
     border-bottom: $dropdown-inner-border;
-    color: $dropdown-color;
+    color: $body-light;
     padding: $dropdown-padding / 2;
   }
 
@@ -99,14 +97,14 @@
   }
 
   .dropdown-menu li:first-child {
-    border-top-left-radius: $base-border-radius;
-    border-top-right-radius: $base-border-radius;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
   }
 
   .dropdown-menu li:last-child {
     border: none;
-    border-bottom-left-radius: $base-border-radius;
-    border-bottom-right-radius: $base-border-radius;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
 
   .show-menu {
