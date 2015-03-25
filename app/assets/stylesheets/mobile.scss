@@ -180,7 +180,7 @@ $mobile-padding: 23px;
 				text-transform: uppercase;
 			}
 
-			.main-nav { 
+			.main-nav {
 				display: block;
 				margin-bottom: 2.5rem;
 
@@ -267,7 +267,7 @@ $mobile-padding: 23px;
 	}
 
 	#build-menu-page {
-		max-width: 320px;
+		max-width: 480px;
 	}
 
 	/* MOBILE GRID */
@@ -286,7 +286,7 @@ $mobile-padding: 23px;
 		padding: 0 3%;
 
 		h2 { font-size: 1.42rem; }
-		p { 
+		p {
 			font-size: 1rem;
 			color: $body-color;
 		}
@@ -330,7 +330,7 @@ $mobile-padding: 23px;
 		@include span-columns(4);
 		@include omega();
 		margin-bottom: $mobile-padding;
-		
+
 
 		h2{
 			margin-top: 0;
@@ -404,7 +404,7 @@ $mobile-padding: 23px;
 					@include mobile-title;
 					margin-top: 0;
 					padding-left: 54px;
-					position: relative;					
+					position: relative;
 					@include right-arrow($highlight, -23px, 0);
 				}
 
@@ -486,7 +486,7 @@ $mobile-padding: 23px;
 	}
 
 	/* GET CONNECTED */
-	
+
 	.connect {
 
 		.opening {
@@ -600,7 +600,7 @@ $mobile-padding: 23px;
 
 	.full-img-article{
 		padding: $mobile-padding;
-		
+
 		ul {
 			margin: 0;
 
@@ -679,7 +679,7 @@ $mobile-padding: 23px;
 			a {
 				font-size: 0.75rem;
 			}
-		}	
+		}
 	}
 
 	/* SUPPLIES */
@@ -705,7 +705,7 @@ $mobile-padding: 23px;
 			li a {
 				color: $mobile-dark-text;
 			}
-		} 
+		}
 	}
 
 	.things .tabs-content {
@@ -752,7 +752,7 @@ $mobile-padding: 23px;
 				margin-top: 1rem;
 			}
 		}
-		
+
 		.opening {
 			background-size: 120%;
 			background-position: 90% 0px;
@@ -780,7 +780,7 @@ $mobile-padding: 23px;
 		.intro {
 			display: none;
 		}
-		
+
 	}
 
 	.story-list {
@@ -807,7 +807,7 @@ $mobile-padding: 23px;
 	}
 
 	.modal-video iframe {
-		width: 320px;
+		width: 480px;
 		height: 200px;
 	}
 
@@ -1008,13 +1008,13 @@ $mobile-padding: 23px;
 			@include mobile-body-paragraph;
 		}
 
-	} 
+	}
 
 	.about .aside,
 	.manifesto .aside {
 		width: 100%;
 	}
-	
+
 	.aside .connect,
 	.aside .download-manifesto {
 		border-left: none;
@@ -1028,7 +1028,7 @@ $mobile-padding: 23px;
 			padding: 12px 0;
 
 			@include right-arrow($highlight-dark, 12px, -3px, 1.2rem);
-			
+
 			&:after {
 				display: none;
 			}
@@ -1069,9 +1069,9 @@ $mobile-padding: 23px;
 	}
 
 
-	
 
-	
+
+
 
 
 	/* OLD STYLES */
@@ -1133,7 +1133,7 @@ $mobile-padding: 23px;
 	.my-stuff,
 	.near-me {
 		margin: 0 auto;
-		width: 320px;
+		width: 480px;
 		background-size: 100%;
 	}
 
@@ -1168,7 +1168,7 @@ $mobile-padding: 23px;
 		@include span-columns(4);
 		margin: 0;
 		padding: 0;
-		
+
 		li {
 			width: 51%;
 			margin: 0 0 0 -1%;
@@ -1308,7 +1308,7 @@ $mobile-padding: 23px;
 
 	/* CONNECT */
 	.page-intro {
-		
+
 		.big-title {
 			padding: 35% 0 25%;
 			background-position: 60% 0;
@@ -1403,7 +1403,7 @@ $mobile-padding: 23px;
 	}
 
 	.app-features {
-		li { 
+		li {
 			@include span-columns(4);
 		}
 
@@ -1413,7 +1413,7 @@ $mobile-padding: 23px;
 			margin-left: 20px;
 		}
 
-		p { 
+		p {
 			margin-left: 2%;
 			margin-right: 2%;
 		}
@@ -1473,14 +1473,14 @@ $mobile-padding: 23px;
 		p {
 			padding: 0;
 		}
-		
+
 		a {
 			margin: 0 6% 0 3%;
 			font-size: 1.5rem;
 			margin-top: 0.5rem;
 			display: block;
 		}
-	} 
+	}
 
 	.prepare-sections {
 		margin-top: 1.8rem;
@@ -1519,7 +1519,7 @@ $mobile-padding: 23px;
 			padding: 0.5rem 0 0.5rem 0;
 			margin-top: 0.2rem;
 		}
-		
+
 		.prepare-things:hover strong,
 		.prepare-people:hover strong {
 			background-color: transparent;
@@ -1527,7 +1527,7 @@ $mobile-padding: 23px;
 	}
 
 	.existing-networks {
-		
+
 
 		h2 {
 			font-size: 1.5rem;
@@ -1638,14 +1638,14 @@ $mobile-padding: 23px;
 		margin-left: 3%;
 	}
 
-	.stories h3 { 
+	.stories h3 {
 		line-height: 1.3;
 		margin: 2rem 3% 0.6rem;
 	}
 
 	.story-list {
 		padding: 0;
-		
+
 		li {
 			@include span-columns(4);
 			margin-bottom: 0.7rem;
@@ -1730,7 +1730,7 @@ $mobile-padding: 23px;
 	.story-detail .social-media {
 		margin-bottom: -4rem;
 	}
-	
+
 	.intro-row {
 		.main-intro {
 			margin-top: 0.5rem;
@@ -1763,7 +1763,7 @@ $mobile-padding: 23px;
 
 			.story-description {
 				margin-top: 1.5rem;
-				
+
 				p {
 					@include intro-paragraph-mobile;
 				}
@@ -1795,7 +1795,7 @@ $mobile-padding: 23px;
 	.similar h3 {
 		padding: 0 $mobile-padding;
 	}
-	
+
 	.needed {
 		margin-top: 2rem;
 	}
@@ -1906,8 +1906,47 @@ $mobile-padding: 23px;
 	.things .intro {
 		margin-bottom: 12rem;
 
-		.photo-overlay p { 
+		.photo-overlay p {
 			bottom: -12.4rem;
+		}
+	}
+
+	.dropdown {
+		margin: 0;
+		display: block;
+		float: right;
+		width: 15%;
+
+		.dropdown-container {
+			display: block;
+			padding: 0;
+			margin: 0;
+		}
+
+		.dropdown-button {
+			width: 100%;
+			margin: 0;
+			font-size: 1rem;
+			padding: 0.4rem 0 0.3rem;
+			color: white;
+			line-height: 1.5rem;
+		}
+
+		.dropdown-button:hover {
+	    color: #f7f7f7 ;
+	  }
+
+		.dropdown-button:after {
+			content: "\25BE\25BE";
+			width: 1rem;
+			word-wrap: break-word;
+			line-height: 0.6rem;
+			color: $highlight;
+			right: 35% ;
+	  }
+
+		.dropdown-menu {
+		  top: 2.25rem ;
 		}
 	}
 
@@ -1916,23 +1955,21 @@ $mobile-padding: 23px;
 		@include span-columns(4);
 		margin: 0;
 		padding: 0;
-		
+		width: 85%;
+
 		li {
 			margin: 0;
 			display: block;
 			float: left;
+			width: 33.333%;
 
 			a {
 				border-color: #CBCBCB;
+				border-right: 0;
 				font-size: 1rem;
-				width: 6.75rem;
 				padding: 0.4rem 0 0.3rem;
-				margin-right: -1px;
+				width: 100%;
 			}
-		}
-
-		li:first-child a {
-			margin-left: -1px;
 		}
 
 		li.active a,
@@ -2081,7 +2118,7 @@ $mobile-padding: 23px;
 		background-color: #FFF;
 		height: auto;
 	}
-	
+
 	.alert-wide {
 
 		.wrapper {
@@ -2285,7 +2322,7 @@ $mobile-padding: 23px;
 		.about-who,
 		.about-what,
 		.about-why {
-			width: 320px;
+			width: 480px;
 			background-size: 100%;
 		}
 	}
@@ -2330,28 +2367,28 @@ $mobile-padding: 23px;
 	}
 
 	.full-img-article {
-		@include retina-image(/assets/mobile/gardening, 320px 514px, jpg);
+		@include retina-image(/assets/mobile/gardening, 480px 514px, jpg);
 	}
 
 	// .home .page-intro .big-title {
-	// 	@include retina-image(/assets/mobile/home-header, 320px 273px, jpg);
+	// 	@include retina-image(/assets/mobile/home-header, 480px 273px, jpg);
 	// 	background-size: auto;
 	// }
 
 	// .opening {
-	// 	@include retina-image(/assets/mobile/get-connected-header, 320px 273px, jpg);
+	// 	@include retina-image(/assets/mobile/get-connected-header, 480px 273px, jpg);
 	// }
 
 	// .opening.supplies {
-	// 	@include retina-image(/assets/mobile/supplies-header, 320px 273px, jpg);
+	// 	@include retina-image(/assets/mobile/supplies-header, 480px 273px, jpg);
 	// }
 
 	// .about .opening {
-	// 	@include retina-image(/assets/mobile/about-us-header, 320px 273px, jpg);
+	// 	@include retina-image(/assets/mobile/about-us-header, 480px 273px, jpg);
 	// }
 
 	// .plan .em-plan {
-	// 	@include retina-image(/assets/mobile/make-plan-header, 320px 273px, jpg);
+	// 	@include retina-image(/assets/mobile/make-plan-header, 480px 273px, jpg);
 	// }
 
 	.learn-more ul li #red-cross {
