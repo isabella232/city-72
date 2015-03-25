@@ -1928,13 +1928,12 @@ $mobile-padding: 23px;
 			margin: 0;
 			font-size: 1rem;
 			padding: 0.4rem 0 0.3rem;
-			color: white;
 			line-height: 1.5rem;
-		}
 
-		.dropdown-button:hover {
-	    color: #f7f7f7 ;
-	  }
+			span {
+				visibility: hidden;
+			}
+		}
 
 		.dropdown-button:after {
 			content: "\25BE\25BE";
